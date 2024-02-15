@@ -956,13 +956,4 @@ function themeSwitcher() {
     } else {
       document.body.classList.toggle("light-mode");
 
-      if (typeof document !== 'undefined') {
-    // Your code that uses document here
-} else {
-    // Code that runs in non-browser environments
-}
-
     }
-  }
-}
-themeSwitcher();
